@@ -1,0 +1,20 @@
+.sidebar {
+height: 200px;
+width: 130px;
+position: fixed;
+top: 0;
+right: 0;
+padding-top: 50px;
+background-color: rgb(180, 248, 245);
+}
+
+.sidebar div {
+padding: 12px;
+font-size: 24px;
+display: block;
+}
+
+.body-text {
+margin-right: 150px;
+font-size: 18px;
+}
