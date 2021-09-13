@@ -5,7 +5,7 @@ position: fixed;
 top: 0;
 right: 0;
 padding-top: 50px;
-background-color: rgb(180, 248, 245);
+background-color: rgb(93, 172, 166);
 }
 
 .sidebar div {
@@ -17,4 +17,12 @@ display: block;
 .body-text {
 margin-right: 150px;
 font-size: 18px;
+}
+
+header {
+  background-color: rgb(133, 218, 210);
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
 }
