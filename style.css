@@ -1,17 +1,21 @@
 .sidebar {
-height: 200px;
+height: 400px;
 width: 130px;
-position: fixed;
+position: realtive;
 top: 0;
 right: 0;
 padding-top: 50px;
-background-color: rgb(93, 172, 166);
+background-color: rgb(130, 220, 210);
+float: left;
+margin-right: -100%;
+max-width: 400px;    
 }
 
 .sidebar div {
 padding: 12px;
 font-size: 24px;
 display: block;
+float: left
 }
 
 .body-text {
@@ -20,7 +24,7 @@ font-size: 18px;
 }
 
 header {
-  background-color: rgb(133, 218, 210);
+  background-color: rgb(130, 220, 210);
   padding: 20px;
   text-align: center;
   font-size: 40px;
