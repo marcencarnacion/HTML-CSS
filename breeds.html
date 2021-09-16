@@ -1,17 +1,24 @@
 <html>
   <head>
-    <body style="background-color:lightgreen;">
-    <nav>
-        <a href = "index.html">Home|</a>
-        <a href = "overview.html">Overview|</a>
-        <a href = "#">Breeds|</a>
-        <a href = "movies.html">Movies|</a>
-    </nav>
-    <header>Overview</header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <body style="background-color:lightyellow;">
+      
+    <div class="sidebar">
+    <div><a href ="index.html" style="color:white;">Home</a></div>
+    <div><a href = "overview.html" style="color:white;">Overview</a></div>
+    <div><a href = "#" style="color:white;">Breeds</a></div>
+    <div><a href = "movies.html" style="color:white;">Movies</a></div>
+    </div>
+    <h1><center>Dog Breeds</center></h1>
+
   </head>
 
   <body>
-    <p>According to the <b>American Kennel Club</b>, here are the top 10 most popular dog breeds.</p>
+    <div class = "main">
+    <p><center>According to the <b>American Kennel Club</b>, here are the top 10 most popular dog breeds.</center></p>
     <a href="https://www.akc.org/expert-advice/dog-breeds/the-most-popular-dog-breeds-of-2020/">Here is a <strong>comprehensive</strong> list of popular dog breeds!</a>
     <ul>
         <li>Retrievers (Labrador)</li>
@@ -26,5 +33,40 @@
         <li>Pointers (German Shorthaired)</li>
         <li>Dachshunds</li>
     </ul>
+
+    <h2><strong>Survey</strong></h3>
+    <p>Do you have a dog?</p>
+    <form>
+    <input type="radio" name="pet_question">
+    <label> Yes</label><br>
+    <input type="radio" name="pet_question">
+    <label> No</label><br>
+    </form>
+
+    <p>Choose your favorite dog breed:</p>
+    <form>
+    <input type="radio" name="dog_breed">
+    <label> Retrievers (Labrador)</label><br>
+    <input type="radio" name="dog_breed">
+    <label> French Bulldogs</label><br>
+    <input type="radio" name="dog_breed">
+    <label> German Shepards</label>
+    <input type="radio" name="dog_breed">
+    <label> Bulldogs</label><br>
+    <input type="radio" name="dog_breed">
+    <label> Poodles</label><br>
+    <input type="radio" name="dog_breed">
+    <label> Beagles</label>
+    <input type="radio" name="dog_breed">
+    <label> Rotweilers</label><br>
+    <input type="radio" name="dog_breed">
+    <label> Pointers (German Shorthaired)</label><br>
+    <input type="radio" name="dog_breed">
+    <label> Dachshunds</label>
+    <input type="radio" name="dog_breed">
+    <label> Other</label>
+    </form>
+
+    </div>
   </body>
 </html>
